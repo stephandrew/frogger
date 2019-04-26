@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1556243568 source:h:\sleek_frog\color.cpp
+	"color.h"
+
+1556246062 h:\sleek_frog\color.h
+	<string>
+	"SDL_Plotter.h"
+	<fstream>
+
+1556243563 h:\sleek_frog\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1556245469 source:h:\sleek_frog\frog.cpp
+	"frog.h"
+
+1556243563 h:\sleek_frog\frog.h
+	"point.h"
+	"color.h"
+	"rectangle.h"
+	"SDL_Plotter.h"
+
+1556243563 h:\sleek_frog\point.h
+	<ostream>
+	"SDL_Plotter.h"
+	"color.h"
+
+1556247069 h:\sleek_frog\rectangle.h
+	"color.h"
+	"point.h"
+	"SDL_Plotter.h"
+
+1556246045 source:h:\sleek_frog\log.cpp
+	"log.h"
+
+1556243563 h:\sleek_frog\log.h
+	"point.h"
+	"color.h"
+	"SDL_Plotter.h"
+	"rectangle.h"
+	<cmath>
+	<ctime>
+
+1556247190 source:h:\sleek_frog\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	"SDL_Plotter.h"
+	"point.h"
+	"color.h"
+	"rectangle.h"
+	"frog.h"
+	"log.h"
+
+1556243564 source:h:\sleek_frog\point.cpp
+	"point.h"
+
+1556247069 source:h:\sleek_frog\rectangle.cpp
+	"rectangle.h"
+
+1556243564 source:h:\sleek_frog\sdl_plotter.cpp
+	"SDL_Plotter.h"
+
+1556243564 source:h:\sleek_frog\letter.cpp
+	"letter.h"
+
+1556243564 h:\sleek_frog\letter.h
+	<string>
+	<fstream>
+	"SDL_Plotter.h"
+

@@ -1,4 +1,12 @@
+/*
+ * SDL_Plotter.h
+ * Version 2.1
+ *  1/26/2018
+ *  Dr. Booth
+ */
+
 #include "SDL_Plotter.h"
+
 //Threaded Function
 
 static int Sound(void *data){
@@ -49,10 +57,6 @@ SDL_Plotter::SDL_Plotter(int r, int c, bool WITH_SOUND){
     //SOUND Thread Pool
     Mix_OpenAudio( 44100, MIX_DEFAULT_FORMAT, 2, 2048 );
     soundCount = 0;
-
-    //Patch Max Mojave bug
-    SDL_PumpEvents();
-    SDL_SetWindowSize(window, c, r);
 
   }
 
@@ -269,3 +273,4 @@ void SDL_Plotter::getMouseLocation(int& x, int& y){
     SDL_GetMouseState( &x, &y );
     cout << x << " " << y << endl;
 }
+

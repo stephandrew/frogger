@@ -8,8 +8,9 @@
 #ifndef SDL_PLOTTER_H_
 #define SDL_PLOTTER_H_
 
-//linker settings
+//linker commands codeblocks
 //-lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer
+
 
 //OSX Library
 //#include <SDL2/SDL.h>
@@ -124,5 +125,6 @@ public:
     void getMouseLocation(int& x, int& y);
 
 };
+
 
 #endif /* SDL_PLOTTER_H_ */

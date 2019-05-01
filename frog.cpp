@@ -8,6 +8,8 @@
         location  = point_t(500, 0);
         prevLoc   = location;
         hasHopped = false;
+        onLog     = false;
+        timeDelay = 40;
         body.setColor(color);
         body.setUL(point_t(location.getX(), location.getY()));
         body.setLR(point_t(location.getX() + size, location.getY() + size));
@@ -65,8 +67,12 @@
     void frog_t::display(SDL_Plotter& g) {
         if (getHasHopped()) {
             setHasHopped(false);
+            if (onLog) {
+                body2.eraser(g, COLOR_LOG);
+            } else {
+                body2.eraser(g);
+            }
 
-            body2.eraser(g);
 
             setLocation(location, body2);
         }
@@ -97,4 +103,26 @@
         prevLoc = location;
         setLocation(point_t(location.getX() + hopSize * size, location.getY()), body);
         hasHopped = true;
+    }
+
+    void frog_t::move(double speed){
+        if (clock() >= movedAtTime + timeDelay){ //if time has passed
+            location.setX(location.getX() + speed); //change the x by speed pixels
+
+            if (speed > 0 && location.getX() >= 1000) {
+                        cout << "frog die" << endl;
+            }
+            else if (speed < 0 && location.getX() < 0) {
+                        cout << "frog die" << endl;
+            }
+
+            //set corners of rectangle
+            body.setUL(point_t(location.getX(), location.getY()));
+            body.setLR(point_t(location.getX() + size, location.getY() + size));
+            hasHopped = true;
+            onLog = true;
+
+            //remember when we moved
+            movedAtTime = clock();
+        }
     }

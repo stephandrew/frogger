@@ -21,7 +21,7 @@ class log_t
         int ratio;
         point_t location;
         color_t color;
-        rectangle_t log, log2;
+        rectangle_t log;
         double speed, length;
         double movedAtTime, timeDelay;
 
@@ -45,7 +45,7 @@ class log_t
 
         //Others
         void move();
-        //void newLog();
+        bool inOn(point_t f);
 
 };
 

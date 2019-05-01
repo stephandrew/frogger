@@ -5,8 +5,8 @@ log_t::log_t(){
     ratio = RATIO;
     color = COLOR_LOG;
     location = point_t(900,275);
-    speed = -5;
-    timeDelay = 25;
+    speed = -4;
+    timeDelay = 40;
     length = 50;
 
     log.setColor(color);
@@ -82,3 +82,16 @@ void log_t::move(){
     movedAtTime = clock();
 }
 
+bool log_t::inOn(point_t f){
+    bool flag = false;
+
+    if(f.getX() > log.getUL().getX() && f.getX() < log.getLR().getX()){
+        if(f.getY() > log.getUL().getY() && f.getY() < log.getLR().getY()){
+            flag = true;
+        }
+    }
+
+    return flag;
+
+    //get the point of the frogs location, pass it in on main
+}

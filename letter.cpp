@@ -6,7 +6,7 @@ void printLetter(string fname, int xLoc, int yLoc, int size, SDL_Plotter& g){
     int row, col;
     char ch;
 
-    file.open(fname);
+    file.open(fname.c_str());
 
     if(!file){
         cout << "Error" << endl;

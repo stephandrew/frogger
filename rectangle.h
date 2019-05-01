@@ -17,9 +17,9 @@ class rectangle_t{
         rectangle_t(point_t, int, int, color_t);
 
         //setters
-        void setUL(const point_t&);
-        void setLR(const point_t&);
-        void setColor(const color_t&);
+        void setUL(const point_t);
+        void setLR(const point_t);
+        void setColor(const color_t);
 
         //getters
         point_t getUL() const;
@@ -30,6 +30,9 @@ class rectangle_t{
         void display(SDL_Plotter&) const;
         void eraser (SDL_Plotter&) const;
         void eraser (SDL_Plotter&, color_t) const;
+
+        //others
+        bool isOn(point_t f);
 };
 
 #endif // RECTANGLE_H_INCLUDED

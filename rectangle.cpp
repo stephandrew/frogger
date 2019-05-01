@@ -16,15 +16,15 @@
     }
 
 ///setters
-    void rectangle_t::setUL(const point_t& a){
+    void rectangle_t::setUL(const point_t a){
         ul = a;
     }
 
-    void rectangle_t::setLR(const point_t& b){
+    void rectangle_t::setLR(const point_t b){
         lr = b;
     }
 
-    void rectangle_t::setColor(const color_t& c){
+    void rectangle_t::setColor(const color_t c){
         color = c;
     }
 
@@ -49,10 +49,8 @@
                 if ((x <= g.getCol()) && (y < g.getRow()) && x >= 0 && y >= 0) {
                     g.plotPixel(x, y, color.R, color.G, color.B);
                 }
-
             }
         }
-
     }
 
     void rectangle_t::eraser(SDL_Plotter& g) const{
@@ -61,7 +59,6 @@
                 if ((x <= g.getCol()) && (y < g.getRow()) && x >= 0 && y >= 0) {
                     g.plotPixel(x, y, 255, 255, 255);
                 }
-
             }
         }
     }
@@ -76,3 +73,19 @@
             }
         }
     }
+
+///others
+
+bool rectangle_t::isOn(point_t f){
+    bool flag = false;
+
+    if(f.getX() > ul.getX() && f.getX() < lr.getX()){
+        if(f.getY() > ul.getY() && f.getY() < lr.getY()){
+            flag = true;
+        }
+    }
+
+    return flag;
+
+    //get the point of the frogs location, pass it in on main
+}

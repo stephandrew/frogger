@@ -1,14 +1,14 @@
 #include "startText.h"
 
-void displayTitle(int& xLoc, int& yLoc, int size, SDL_Plotter& g) {
-    printLetter("font/S.txt",xLoc, yLoc, size, g);
-    xLoc += size * 10;
-    printLetter("font/T.txt",xLoc, yLoc, size, g);
-    xLoc += size * 10;
-    printLetter("font/A.txt",xLoc, yLoc, size, g);
-    xLoc += size * 10;
-    printLetter("font/R.txt",xLoc, yLoc, size, g);
-    xLoc += size * 10;
-    printLetter("font/T.txt",xLoc, yLoc, size, g);
-    xLoc += size * 10;
+void displayTitle(int& startTextX, int& startTextY, int size, SDL_Plotter& g) {
+    printLetter("font/S.txt",startTextX, startTextY, size, g);
+    startTextX += size * 10;
+    printLetter("font/T.txt",startTextX, startTextY, size, g);
+    startTextX += size * 10;
+    printLetter("font/A.txt",startTextX, startTextY, size, g);
+    startTextX += size * 10;
+    printLetter("font/R.txt",startTextX, startTextY, size, g);
+    startTextX += size * 10;
+    printLetter("font/T.txt",startTextX, startTextY, size, g);
+    startTextX += size * 10;
 }

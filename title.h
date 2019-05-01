@@ -8,7 +8,7 @@
 
 class title_t{
     private:
-        point_t ul, lr;
+        point_t titleUL, tileLR;
         color_t color;
 
     public:

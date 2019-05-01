@@ -25,20 +25,22 @@ void readColor(string fname, int xLoc, int yLoc, int size, SDL_Plotter& g);
 
 //general colors
 const color_t COLOR_WHITE (255, 255, 255);
-const color_t COLOR_BLACK (0, 0, 0);
-const color_t COLOR_GREEN (0, 255, 0);
-const color_t COLOR_RED   (255, 0, 0);
-const color_t COLOR_YELLOW(240, 229, 25);
-const color_t COLOR_BROWN (120, 70, 0);
-const color_t COLOR_BLUE  (0, 0, 255);
-const color_t COLOR_PURPLE(160, 58, 161);
-const color_t COLOR_ORANGE(255, 127, 39);
+const color_t COLOR_BLACK (  0,   0,   0);
+const color_t COLOR_GREEN (  0, 255,   0);
+const color_t COLOR_RED   (255,   0,   0);
+const color_t COLOR_YELLOW(240, 229,  25);
+const color_t COLOR_BROWN (120,  70,   0);
+const color_t COLOR_BLUE  (  0,   0, 255);
+const color_t COLOR_PURPLE(160,  58, 161);
+const color_t COLOR_ORANGE(255, 127,  39);
 const color_t COLOR_PINK  (232, 128, 161);
 
 //object colors
-const color_t COLOR_GRASS(232, 128, 161);
-const color_t COLOR_WATER(0, 75, 250);
-const color_t COLOR_FROG (0, 220, 30);
-const color_t COLOR_LOG  (120, 70, 0);
+const color_t COLOR_GRASS   (232, 128, 161);
+const color_t COLOR_WATER   (  0, 75 , 250);
+const color_t COLOR_FROG    (  0, 220,  30);
+const color_t COLOR_LOG     (120, 70 ,   0);
+const color_t COLOR_ROAD    ( 50,  50,  50);
+const color_t COLOR_STRIPES (255, 247,   0);
 
 #endif // COLOR_H_INCLUDED

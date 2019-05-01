@@ -1,6 +1,7 @@
 #ifndef FROG_H_INCLUDED
 #define FROG_H_INCLUDED
 
+#include <ctime>
 #include "point.h"
 #include "color.h"
 #include "rectangle.h"
@@ -13,7 +14,8 @@ class frog_t {
         color_t     color;
         rectangle_t body, body2;
         int         size, hopSize;
-        bool        hasHopped;
+        bool        hasHopped, onLog;
+        double      movedAtTime, timeDelay;
 
     public:
         //constructors
@@ -42,7 +44,7 @@ class frog_t {
         void hopBack();
         void hopLeft();
         void hopRight();
-
+        void move(double);
 
 };
 

@@ -1,0 +1,324 @@
+# depslib dependency file v1.0
+1556301520 source:h:\sleek_frog\color.cpp
+	"color.h"
+
+1556303238 h:\sleek_frog\color.h
+	<string>
+	"SDL_Plotter.h"
+	<fstream>
+
+1556301520 h:\sleek_frog\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1556301520 source:h:\sleek_frog\frog.cpp
+	"frog.h"
+
+1556301520 h:\sleek_frog\frog.h
+	"point.h"
+	"color.h"
+	"rectangle.h"
+	"SDL_Plotter.h"
+
+1556301520 h:\sleek_frog\point.h
+	<ostream>
+	"SDL_Plotter.h"
+	"color.h"
+
+1556301521 h:\sleek_frog\rectangle.h
+	"color.h"
+	"point.h"
+	"SDL_Plotter.h"
+
+1556301520 source:h:\sleek_frog\log.cpp
+	"log.h"
+
+1556302505 h:\sleek_frog\log.h
+	"point.h"
+	"color.h"
+	"SDL_Plotter.h"
+	"rectangle.h"
+	<cmath>
+	<ctime>
+
+1556303245 source:h:\sleek_frog\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<iomanip>
+	"SDL_Plotter.h"
+	"point.h"
+	"rectangle.h"
+	"frog.h"
+	"log.h"
+	"title.h"
+	"startText.h"
+
+1556301520 source:h:\sleek_frog\point.cpp
+	"point.h"
+
+1556301520 source:h:\sleek_frog\rectangle.cpp
+	"rectangle.h"
+
+1556301520 source:h:\sleek_frog\sdl_plotter.cpp
+	"SDL_Plotter.h"
+
+1556301720 source:h:\sleek_frog\letter.cpp
+	"letter.h"
+
+1556301520 h:\sleek_frog\letter.h
+	<string>
+	<fstream>
+	"SDL_Plotter.h"
+
+1556302403 source:h:\sleek_frog\starttext.cpp
+	"startText.h"
+
+1556301521 h:\sleek_frog\starttext.h
+	"letter.h"
+	"SDL_Plotter.h"
+
+1556302281 source:h:\sleek_frog\title.cpp
+	"title.h"
+
+1556302272 h:\sleek_frog\title.h
+	"SDL_Plotter.h"
+	"color.h"
+	"rectangle.h"
+	"letter.h"
+
+1556305598 source:h:\toader\color.cpp
+	"color.h"
+
+1556303240 h:\toader\color.h
+	<string>
+	"SDL_Plotter.h"
+	<fstream>
+
+1556558750 h:\toader\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1556813154 source:h:\toader\frog.cpp
+	"frog.h"
+
+1556813154 h:\toader\frog.h
+	<ctime>
+	"point.h"
+	"color.h"
+	"rectangle.h"
+	"SDL_Plotter.h"
+
+1556301522 h:\toader\point.h
+	<ostream>
+	"SDL_Plotter.h"
+	"color.h"
+
+1556728250 h:\toader\rectangle.h
+	"color.h"
+	"point.h"
+	"SDL_Plotter.h"
+
+1556301722 source:h:\toader\letter.cpp
+	"letter.h"
+
+1556301522 h:\toader\letter.h
+	<string>
+	<fstream>
+	"SDL_Plotter.h"
+
+1556813154 source:h:\toader\log.cpp
+	"log.h"
+
+1556555460 h:\toader\log.h
+	"point.h"
+	"color.h"
+	"SDL_Plotter.h"
+	"rectangle.h"
+	<cmath>
+	<ctime>
+
+1556301522 source:h:\toader\point.cpp
+	"point.h"
+
+1556728022 source:h:\toader\rectangle.cpp
+	"rectangle.h"
+
+1556558510 source:h:\toader\sdl_plotter.cpp
+	"SDL_Plotter.h"
+
+1556302404 source:h:\toader\starttext.cpp
+	"startText.h"
+
+1556301522 h:\toader\starttext.h
+	"letter.h"
+	"SDL_Plotter.h"
+
+1556302282 source:h:\toader\title.cpp
+	"title.h"
+
+1556302274 h:\toader\title.h
+	"SDL_Plotter.h"
+	"color.h"
+	"rectangle.h"
+	"letter.h"
+
+1556813197 source:h:\toader\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<iomanip>
+	"SDL_Plotter.h"
+	"point.h"
+	"rectangle.h"
+	"frog.h"
+	"log.h"
+	"title.h"
+	"startText.h"
+	"bug.h"
+	"text.h"
+
+1556305598 source:e:\toader\color.cpp
+	"color.h"
+
+1556303240 e:\toader\color.h
+	<string>
+	"SDL_Plotter.h"
+	<fstream>
+
+1556558750 e:\toader\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1556562496 source:e:\toader\frog.cpp
+	"frog.h"
+
+1556562490 e:\toader\frog.h
+	<ctime>
+	"point.h"
+	"color.h"
+	"rectangle.h"
+	"SDL_Plotter.h"
+
+1556301522 e:\toader\point.h
+	<ostream>
+	"SDL_Plotter.h"
+	"color.h"
+
+1556728250 e:\toader\rectangle.h
+	"color.h"
+	"point.h"
+	"SDL_Plotter.h"
+
+1556301722 source:e:\toader\letter.cpp
+	"letter.h"
+
+1556301522 e:\toader\letter.h
+	<string>
+	<fstream>
+	"SDL_Plotter.h"
+
+1556557014 source:e:\toader\log.cpp
+	"log.h"
+
+1556555460 e:\toader\log.h
+	"point.h"
+	"color.h"
+	"SDL_Plotter.h"
+	"rectangle.h"
+	<cmath>
+	<ctime>
+
+1556301522 source:e:\toader\point.cpp
+	"point.h"
+
+1556728022 source:e:\toader\rectangle.cpp
+	"rectangle.h"
+
+1556558510 source:e:\toader\sdl_plotter.cpp
+	"SDL_Plotter.h"
+
+1556302404 source:e:\toader\starttext.cpp
+	"startText.h"
+
+1556301522 e:\toader\starttext.h
+	"letter.h"
+	"SDL_Plotter.h"
+
+1556302282 source:e:\toader\title.cpp
+	"title.h"
+
+1556302274 e:\toader\title.h
+	"SDL_Plotter.h"
+	"color.h"
+	"rectangle.h"
+	"letter.h"
+
+1556729684 source:e:\toader\bug.cpp
+	"bug.h"
+
+1556729646 e:\toader\bug.h
+	"point.h"
+	"color.h"
+	"SDL_Plotter.h"
+	"rectangle.h"
+	<cmath>
+	<ctime>
+
+1556731504 source:e:\toader\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<iomanip>
+	"SDL_Plotter.h"
+	"point.h"
+	"rectangle.h"
+	"frog.h"
+	"log.h"
+	"title.h"
+	"startText.h"
+	"bug.h"
+	"text.h"
+
+1556729846 e:\toader\text.h
+	"SDL_Plotter.h"
+	"letter.h"
+	"point.h"
+
+1556729646 h:\toader\bug.h
+	"point.h"
+	"color.h"
+	"SDL_Plotter.h"
+	"rectangle.h"
+	<cmath>
+	<ctime>
+
+1556729846 h:\toader\text.h
+	"SDL_Plotter.h"
+	"letter.h"
+	"point.h"
+
+1556729846 source:h:\toader\text.cpp
+	"text.h"
+
+1556729684 source:h:\toader\bug.cpp
+	"bug.h"
+
